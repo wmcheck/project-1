@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es2015", // скомпилировать в javascript стандарта ES2015
+        //"moduleResolution": "node16", // как разрешать модули при компиляции typescript
+        "module": "es2015", // javascript код будет использовать модули ES2015
+        "outDir": "build", // директория для скомпилированных javascript файлов
+        "strict": true, // включить все опции группы Strict Checks
+        "sourceMap": true, // при компиляции создавать карту кода
+        "removeComments": true, // удалить комментарии в javascript файлах
+        "newLine": "lf", // новая строка в javascript файлах — как в Linux
+        "esModuleInterop": true, // импортировать модули CommonJS как модули ES2015
+        "forceConsistentCasingInFileNames": true
+    }
+}
