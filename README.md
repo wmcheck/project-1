@@ -1,2 +1,4 @@
 # project-1
-Node my project
+Проект для тестирования node.js
+
+Запуск node index
